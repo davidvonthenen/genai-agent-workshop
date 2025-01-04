@@ -1,8 +1,8 @@
-# Step 4: Adding Function Calling to the Kubernetes AI Agent
+# Step 6: (Optional) Adding Function Calling to the Kubernetes AI Agent
 
 In this section, we’ll enhance the Kubernetes AI Agent by adding a DigitalOcean function that uses the **function calling** feature of the GenAI platform. The function will take an IP address for a Kubernetes control plane as input and return a mock list of pods in the cluster.
 
-## 4.1: Create the Function Using the DigitalOcean Control Panel
+## 6.1: Create the Function Using the DigitalOcean Control Panel
 
 To create the function:
 
@@ -22,7 +22,7 @@ To create the function:
 
 5. After deployment, note the function’s HTTP endpoint URL for later use.
 
-## 4.2: Integrate the Function with the AI Agent
+## 6.2: Integrate the Function with the AI Agent
 
 1. Navigate to the **AI Agents** section in the GenAI Platform.
 2. Select your AI Agent (`KubernetesAgent`).
@@ -32,12 +32,15 @@ To create the function:
    - **Function Name**: `getPods`
    - **Endpoint URL**: Paste the HTTP URL of the function created earlier.
    - **Input Format**: Specify the input parameters in JSON format. Example:
+
      ```json
      {
        "controlPlaneIP": "string"
      }
      ```
+
    - **Output Format**: Define the expected output format in JSON. Example:
+
      ```json
      {
        "pods": [
@@ -61,7 +64,7 @@ To create the function:
 
 6. Enable the function for the AI Agent by saving the configuration.
 
-## 4.3: Test the AI Agent with Function Calling
+## 6.3: Test the AI Agent with Function Calling
 
 1. Navigate to the **Playground** for the AI Agent.
 2. Input a query that triggers the function call. Example:
@@ -72,4 +75,6 @@ To create the function:
 
 With this integration, your Kubernetes AI Agent is now equipped to perform dynamic actions via function calling, enhancing its capabilities and usefulness.
 
-→ [Next Up: Embed Your AI Agent In A Web Page](./STEP5_AGENT_EMBED.md)
+## Next Steps...
+
+→ [Next Up: Concluding Remarks](./FINISH.md)

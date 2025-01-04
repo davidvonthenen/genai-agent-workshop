@@ -8,10 +8,16 @@ To begin, you'll need to create a DigitalOcean Spaces object store where the dat
 
 1. Log in to your DigitalOcean account.
 2. Navigate to the [Spaces creation page](https://cloud.digitalocean.com/spaces).
-3. Click **Create a Space** and configure the following:
+
+   ![Create a Bucket](./images/step1-create.png)
+
+3. Click **Create Bucket** and configure the following:
    - Select a datacenter region closest to your target audience.
    - Choose a unique name for your Space (e.g., `kubernetes-agent-dataset`).
    - Leave the default settings for permissions unless you require public access.
+
+   ![Bucket Settings](./images/step1-settings.png)
+
 4. Once the Space is created, note the endpoint URL for later use.
 
 For more details, refer to the [Spaces Quickstart Guide](https://docs.digitalocean.com/products/spaces/getting-started/quickstart/).
@@ -23,13 +29,13 @@ The dataset for the Kubernetes AI Agent is available in the GitHub repository. E
 1. If you haven't done this already, clone the workshop repository:
 
    ```bash
-   git clone https://github.com/do-community/genai-launch-agent-workshop.git
+   git clone https://github.com/do-community/genai-agent-workshop.git
    ```
 
 2. Navigate to the dataset folder:
 
    ```bash
-   cd genai-launch-agent-workshop/kubernetes-walkthrough
+   cd genai-agent-workshop/kubernetes-walkthrough
    ```
 
 3. Extract the contents of the ZIP file:
@@ -65,31 +71,12 @@ find ./website -type d -empty -delete
 
 ## 1.3 Upload the Dataset to the Spaces Object Store
 
-TODO
+The click the upload button and upload the 3 folders contained within the dataset.
 
-## 1.4 (Optional) Alteratively, Upload the Dataset Using `s3cmd`
-
-Once the dataset is prepared, upload it to your Spaces object store. Use the following steps:
-
-1. Install and configure the `s3cmd` tool to interact with DigitalOcean Spaces:
-
-   ```bash
-   sudo apt-get install s3cmd
-   s3cmd --configure
-   ```
-
-2. Upload the dataset folder:
-
-   ```bash
-   s3cmd sync kubernetes-agent-dataset/ s3://kubernetes-agent-dataset
-   ```
-
-3. Verify the dataset upload by checking the contents of your Space:
-
-   ```bash
-   s3cmd ls s3://kubernetes-agent-dataset
-   ```
+![Bucket Settings](./images/step1-upload.png)
 
 Your dataset is now ready to be accessed by the Kubernetes AI Agent!
+
+## Next Steps...
 
 → [Next Up: Creating Your Dataset on DigitalOcean Spaces](./STEP2_KNOWLEDGE_BASE.md) 

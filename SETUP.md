@@ -20,8 +20,10 @@
 ## 1.4 Clone This Repo
 
 ```bash
-git clone https://github.com/do-community/genai-launch-agent-workshop.git
-cd genai-launch-agent-workshop
+git clone https://github.com/do-community/genai-agent-workshop.git
+cd genai-agent-workshop
 ```
+
+## Next Steps...
 
 → [Next Up: Creating a GenAI Agent by Example: Kubernetes Subject Matter Expert](./KUBERNETES_AGENT.md)
