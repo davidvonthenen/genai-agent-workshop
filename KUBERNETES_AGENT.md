@@ -56,4 +56,4 @@ Before starting, ensure you have:
 
 Let’s get started and build something amazing! 🚀
 
-→ [Next Up: Creating Your Dataset on DigitalOcean Spaces](./SPACES_DATASET.md)
+→ [Next Up: Creating Your Dataset on DigitalOcean Spaces](./STEP1_SPACES_DATASET.md)

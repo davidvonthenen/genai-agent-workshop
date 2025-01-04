@@ -37,7 +37,7 @@ You can reach out to...
 
 ### Author Socials
 
-You canb reach out to the author/presenter, aka [David vonThenen](https://linktr.ee/davidvonthenen), for this workshop via:
+You can reach out to the author/presenter, aka [David vonThenen](https://linktr.ee/davidvonthenen), for this workshop via:
 
 - [LinkedIn @davidvonthenen](https://www.linkedin.com/in/davidvonthenen)
 - [GitHub @davidvonthenen](https://github.com/davidvonthenen)
