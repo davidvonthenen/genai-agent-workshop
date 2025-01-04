@@ -67,7 +67,7 @@ find ./website -type d -empty -delete
 
 TODO
 
-## 1.4 (Optional) Upload the Dataset Using `s3cmd`
+## 1.4 (Optional) Alteratively, Upload the Dataset Using `s3cmd`
 
 Once the dataset is prepared, upload it to your Spaces object store. Use the following steps:
 
@@ -92,4 +92,4 @@ Once the dataset is prepared, upload it to your Spaces object store. Use the fol
 
 Your dataset is now ready to be accessed by the Kubernetes AI Agent!
 
-→ [Next Up: Creating Your Dataset on DigitalOcean Spaces](./KNOWLEDGE_BASE.md) 
+→ [Next Up: Creating Your Dataset on DigitalOcean Spaces](./STEP2_KNOWLEDGE_BASE.md) 

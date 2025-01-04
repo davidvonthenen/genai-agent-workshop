@@ -1,6 +1,6 @@
 # Step 2: Building a Knowledge Base for the Kubernetes AI Agent
 
-In this section, we’ll create a Knowledge Base (KB) using DigitalOcean's GenAI Platform, leveraging the dataset stored in your DigitalOcean Spaces object store from the previous step.
+In this section, we’ll create a Knowledge Base (KB) using DigitalOcean's GenAI Platform, leveraging the dataset stored in your DigitalOcean Spaces object store, named `kubernetes-agent-dataset`, from the previous step.
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@ Ensure you have:
 - The dataset uploaded to a Spaces object store (e.g., `kubernetes-agent-dataset`).
 - The endpoint URL and credentials for your Space.
 
-For more details on creating a Knowledge Base, refer to the [Getting Started Guide](https://docs.digitalocean.com/products/genai-platform/how-to/manage-kb/create/).
+For more details on creating a Knowledge Base, refer to the [Knowledge Base Quickstart Guide](https://docs.digitalocean.com/products/genai-platform/how-to/manage-kb/create/).
 
 ## 2.1: Access the GenAI Platform
 
@@ -46,4 +46,4 @@ For more details on creating a Knowledge Base, refer to the [Getting Started Gui
 
 Congratulations! Your Knowledge Base is now live and ready to empower your Kubernetes AI Agent.
 
-→ [Next Up: Creating Your AI Agent](./GENAI_AGENT.md)
+→ [Next Up: Creating Your AI Agent](./STEP3_GENAI_AGENT.md)
