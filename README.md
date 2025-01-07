@@ -1,5 +1,7 @@
 # DigitalOcean GenAI Platform Workshop
 
+![DigitalOcean Title](./images/genai-platform-title.jpg)
+
 Welcome to the **DigitalOcean GenAI Platform Workshop** repository! This repo contains all the materials you’ll need to explore and build AI-powered applications using DigitalOcean's GenAI Platform. From hands-on examples to reference guides, you’ll find everything to kickstart your journey into creating and deploying AI agents with ease.
 
 ## Workshop Outline

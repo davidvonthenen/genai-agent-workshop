@@ -15,35 +15,30 @@ For more details on creating a Knowledge Base, refer to the [Knowledge Base Quic
 
 1. Log in to your DigitalOcean account.
 2. Navigate to the GenAI Platform dashboard.
-3. Select **Knowledge Base** from the side menu.
+3. Select **GenAI Platform** from the side menu, then select the **Knowledge Base** tab.
 
 ## 2.2: Create a New Knowledge Base
 
 1. Click **Create Knowledge Base**.
+
+   ![Create a Knowledge Base](./images/step2-create.png)
+
 2. Enter a name for your Knowledge Base (e.g., `kubernetes-agent-kb`).
 3. Specify the source as **Spaces Object Store** and provide the following details:
    - Space name: `kubernetes-agent-dataset`
-   - Space endpoint URL: (e.g., `https://nyc3.digitaloceanspaces.com/kubernetes-agent-dataset`)
+   - Space endpoint URL: (e.g., `https://<your region>.digitaloceanspaces.com/kubernetes-agent-dataset`)
    - Credentials: Use your DigitalOcean Spaces API keys.
 
-4. Configure the ingestion options:
-   - File formats: Ensure `.md` is enabled.
-   - Indexing mode: Select **Initial Dataset Index** to process the full dataset.
+   ![Knowledge Base Settings](./images/step2-settings.png)
 
-5. Click **Save** to create the Knowledge Base.
+4. Click **Create Knowledge Base** to start the creation process.
 
-## 2.3: Monitor the Indexing Process
+## 2.3: Monitor the Process
 
 1. Once created, the Knowledge Base will begin indexing the dataset files.
 2. Navigate to the **Knowledge Base Overview** page to monitor progress.
 3. Verify that all files have been indexed successfully. Any errors will be displayed in the logs.
 
-## 2.4: (Optional) Test the Knowledge Base
-
-1. Navigate to the **Test Your Knowledge Base** section.
-2. Enter sample queries related to Kubernetes to test the retrieval accuracy of your KB.
-3. Refine indexing or dataset contents as needed based on the test results.
-
-Congratulations! Your Knowledge Base is now live and ready to empower your Kubernetes AI Agent.
+## Next Steps...
 
 → [Next Up: Creating Your AI Agent](./STEP3_GENAI_AGENT.md)
