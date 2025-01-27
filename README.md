@@ -21,17 +21,24 @@ Otherwise, to start on the workshop, click [here](./KUBERNETES_AGENT.md) to begi
 
 Explore these additional resources to enhance your understanding of the GenAI Platform:
 
-Documentation:
+Official Documentation:
 
 - [GenAI Quick Start Guide](https://docs.digitalocean.com/products/genai-platform/getting-started/quickstart/)
 - [Managing AI Agents](https://docs.digitalocean.com/products/genai-platform/how-to/manage-ai-agent/)
 
-Other Resources:
+Data Deep Dive:
 
-- [TODO: The Secret Sauce to a Winning Dataset for GenAI - Quality Over Quantity](TODO)
-- [TODO: From Knowledge Gaps to Expert Agents - Unlocking the Advanced Use Cases of RAG with the GenAI Platform](TODO)
+- [The Secret Sauce to a Winning Dataset for GenAI - Quality Over Quantity](https://www.digitalocean.com/community/conceptual-articles/the-secret-sauce-to-a-winning-dataset-for-genai-quality-over-quantity)
+- [Effective Strategies for Preparing and Sending Data to GenAI Agents](https://www.digitalocean.com/community/conceptual-articles/send-data-to-genai-agents)
+
+Features Deep Dive:
+
+- [From Knowledge Gaps to Expert Agents - Unlocking the Advanced Use Cases of RAG with the GenAI Platform](https://www.digitalocean.com/community/conceptual-articles/from-knowledge-gaps-to-expert-agents-unlocking-the-advanced-use-cases-of-rag-with-the-genai-platform)
 - [Integrating GenAI in Your Web App](https://www.digitalocean.com/community/tutorials/how-to-integrate-digitalocean-genai-platform-in-your-web-app-using-digitalocean-cloud-functions)
 
+General:
+
+- [Introducing the GenAI Platform: Simplifying AI Development for All](https://www.digitalocean.com/blog/introducing-generative-ai-platform)
 
 ## Need Help?
 
