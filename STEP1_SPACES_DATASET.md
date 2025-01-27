@@ -44,13 +44,14 @@ The dataset for the Kubernetes AI Agent is available in the GitHub repository. E
    unzip kubernetes-agent.zip -d kubernetes-agent-dataset
    ```
 
-### Note on Dataset Creation
+### (Optional) Note on Dataset Creation
 
-The dataset was prepared by combining files from the following repositories:
+This note shows how we prepared the dataset in step 1.2 above. There is no need to do this if you are using the `genai-agent-workshop/kubernetes-walkthrough` zip file. This is just for your information.
+
+This dataset was prepared by combining files from the following repositories:
 
 - [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - [Kubernetes Website](https://github.com/kubernetes/website)
-- 2 Popular eBooks Found on the Public Internet
 
 From these repositories, only the markdown (`.md`) files were retained. Below is an example of how this process was carried out:
 
