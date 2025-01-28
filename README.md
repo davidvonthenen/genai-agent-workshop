@@ -2,7 +2,7 @@
 
 ![DigitalOcean Title](./images/genai-platform-title.jpg)
 
-Welcome to the **DigitalOcean GenAI Platform Workshop** repository! This repo contains all the materials you’ll need to explore and build AI-powered applications using DigitalOcean's GenAI Platform. From hands-on examples to reference guides, you’ll find everything to kickstart your journey into creating and deploying AI agents with ease.
+Welcome to the **DigitalOcean GenAI Platform Workshop** repository! This repo contains all the materials you'll need to explore and build AI-powered applications using DigitalOcean's GenAI Platform. From hands-on examples to reference guides, you'll find everything to kickstart your journey into creating and deploying AI agents with ease.
 
 ## Workshop Outline
 
@@ -19,7 +19,7 @@ Otherwise, to start on the workshop, click [here](./KUBERNETES_AGENT.md) to begi
 
 ## Resources
 
-Explore these additional resources to enhance your understanding of the GenAI Platform:
+You can find the presentation slides [here](https://docs.google.com/presentation/d/1kMBcdQPIhF-PpyDUsqLcenLGbvqOi0FsSNXYtnZqtb4/edit?usp=sharing). Explore these additional resources to enhance your understanding of the GenAI Platform:
 
 Official Documentation:
 
