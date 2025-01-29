@@ -31,7 +31,7 @@ For more details on creating a Knowledge Base, refer to the [Knowledge Base Quic
 
    ![Knowledge Base Settings](./images/step2-settings.png)
 
-4. Select the default Embeddings Model: `All MiniLM L6 v2`.
+4. Select the default Embeddings Model: `Multi QA MPNet Base Dot`.
 5. Click **Create Knowledge Base** to start the creation process.
 
 ## 2.3: Monitor the Process
