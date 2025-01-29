@@ -104,7 +104,7 @@ We want to go back and refine some of the settings on our Agent.
 
 3. **Settings**:
 
-   - TODO: Key
+   - Create an `Endpoint Access Key` and save the value of the generated key. This si required when attempting to use the API via code.
 
    ![Agent Settings](./images/step3-agent-settings.png)
 

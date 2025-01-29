@@ -8,7 +8,7 @@ Before proceeding, ensure you have:
 
 - Python 3.7 or later installed.
 - (Optional, but highly recommended) A virtual environment like [conda](https://docs.anaconda.com/miniconda/install/#quick-command-line-install) or [venv](https://docs.python.org/3/library/venv.html).
-- The `agent.py` script, available in the repository under `./kubernetes-walkthrough/agent.py`.
+- The `agent.py` script, available in the repository under `kubernetes-walkthrough/agent.py`.
 - Installed the required Python libraries: `pyjwt`, `openai`, and `httpx`.
 
   ```bash
@@ -22,8 +22,8 @@ Before proceeding, ensure you have:
 
 ## 5.1: Update agent.py
 
-1. Open the `agent.py` file in a text editor.
-2. Replace the placeholders with your agent’s details:
+1. Open the `agent.py` file in a text editor. This Python file is located in the `kubernetes-walkthrough` directory in this repo.
+2. Replace the placeholders with your agent's details:
 
   - `agent_key`: Replace `<your-agent-endpoint-key>` with your Agent Key.
   - `agent_endpoint`: Replace `<your-agent-endpoint-url>` with your Agent Endpoint URL. Ensure it ends with /api/v1/.
@@ -60,10 +60,6 @@ The API Endpoint that is deployed is OpenAI API compatible. Most LLMs these days
 
 ## Next Steps...
 
-Here is an optional module:
-
-→ [Next Up: Function Calling With Your AI Agent](./STEP6_FUNCTION_CALLING.md)
-
-Or let's wrap up here...
+Let's wrap up here...
 
 → [Next Up: Concluding Remarks](./FINISH.md)
