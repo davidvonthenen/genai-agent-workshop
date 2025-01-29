@@ -1,4 +1,4 @@
-# Step 5: Calling Your Kubernetes AI Agent Using an API
+# Step 5 (Optional): Calling Your Kubernetes AI Agent Using an API
 
 In this final exercise, you will learn how to interact with your AI Agent via an API call. This enables you to programmatically send queries to your AI Agent and retrieve responses. A pre-configured Python script (`agent.py`) is provided in the GitHub repository to simplify this process.
 
@@ -17,7 +17,6 @@ Before proceeding, ensure you have:
 
 - Your AI Agent's credentials:
 
-  - Agent ID: Found in your chatbot embed code under `data-agent-id`.
   - Agent Key: Found in your chatbot embed code under `data-chatbot-id`.
   - Agent Endpoint URL: Found in your chatbot embed code (src value in the embed script).
 
@@ -26,42 +25,28 @@ Before proceeding, ensure you have:
 1. Open the `agent.py` file in a text editor.
 2. Replace the placeholders with your agent’s details:
 
-  - `agent_id`: Replace XXXXXX with your Agent ID.
-  - `agent_key`: Replace XXXXXX with your Agent Key.
-  - `agent_endpoint`: Replace XXXXXX with your Agent Endpoint URL. Ensure it ends with /api/v1/.
+  - `agent_key`: Replace `<your-agent-endpoint-key>` with your Agent Key.
+  - `agent_endpoint`: Replace `<your-agent-endpoint-url>` with your Agent Endpoint URL. Ensure it ends with /api/v1/.
 
 ## 5.2: Test the Script
 
 1. Run the script:
 
   ```bash
-  python ./kubernetes-walkthrough/agent.py
+  python agent.py
   ```
 
-2. The script will:
-
-  - Generate or refresh tokens as needed.
-  - Send a query to your AI Agent. The default query is:
+2. The script will send a query to your Agent. The default query is:
 
     ```
-    I am attempting to debug a pod that isn't starting in a Kubernetes cluster. What can I do to debug this?
+    How do I troubleshoot a CrashLoopBackOff error in Kubernetes?
     ```
 
 3. The agent's response will be printed to the terminal.
 
 ### How the Script Works
 
-Key Functions
-
-- Token Management:
-
-  - `get_refresh_token(agent_key)`: Generates a refresh token.
-  - `get_access_token(refresh_token)`: Generates an access token.
-  - `is_expired(token)`: Checks if a token has expired.
-
-- API Call:
-
-  - The script uses the OpenAI client to make chat completions requests to the agent.
+The API Endpoint that is deployed is OpenAI API compatible. Most LLMs these days are OpenAI compatible and these Agents aren't any different.
 
 ## 5.3: Customize the Script
 
