@@ -22,7 +22,7 @@ For more details on creating a Knowledge Base, refer to the [Knowledge Base Quic
 
    ![Create a Knowledge Base](./images/step2-create-new.png)
 
-2. (Optionally) If you have played around with the GenAI Platform, you may not see the screen above. It may look like this below. In this case, select the **Knowledge base** tab.
+2. (Optionally) If you have played around with the GenAI Platform, you may not see the screen above. It may look like this below. In this case, click the **Knowledge base** tab, then select `Create Knowledge base`.
 
    ![Create a Knowledge Base](./images/step2-create-existing.png)
 
