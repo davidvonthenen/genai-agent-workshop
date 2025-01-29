@@ -14,29 +14,36 @@ For more details on creating a Knowledge Base, refer to the [Knowledge Base Quic
 ## 2.1: Access the GenAI Platform
 
 1. Log in to your DigitalOcean account.
-2. Navigate to the GenAI Platform dashboard.
-3. Select **GenAI Platform** from the side menu, then select the **Knowledge Base** tab.
+2. Navigate to the GenAI Platform dashboard by selecting **GenAI Platform** from the side menu.
 
 ## 2.2: Create a New Knowledge Base
 
-1. Click **Create Knowledge Base**.
+1. Select **GenAI Platform** from the side menu, scroll down until you see `Dive Into GenAI`, then in the **START WITH DATA** box, select `Create a Knowledge base`.
 
-   ![Create a Knowledge Base](./images/step2-create.png)
+   ![Create a Knowledge Base](./images/step2-create-new.png)
+
+2. (Optionally) If you have played around with the GenAI Platform, you may not see the screen above. It may look like this below. In this case, select the **Knowledge base** tab.
+
+   ![Create a Knowledge Base](./images/step2-create-existing.png)
 
 2. Enter a name for your Knowledge Base (e.g., `kubernetes-agent-kb`).
-3. Specify the source as **Spaces Object Store** and provide the following details:
-   - Space name: `kubernetes-agent-dataset`
-   - Space endpoint URL: (e.g., `https://<your region>.digitaloceanspaces.com/kubernetes-agent-dataset`)
-   - Credentials: Use your DigitalOcean Spaces API keys.
+3. Specify the source as **Spaces Object Store** and select `kubernetes-agent-dataset` from list of spaces buckets.
 
    ![Knowledge Base Settings](./images/step2-settings.png)
 
-4. Click **Create Knowledge Base** to start the creation process.
+4. Select the default Embeddings Model: `All MiniLM L6 v2`.
+5. Click **Create Knowledge Base** to start the creation process.
 
 ## 2.3: Monitor the Process
 
-1. Once created, the Knowledge Base will begin indexing the dataset files.
+1. Once created, the Knowledge Base will begin indexing the dataset files. Select your `kubernetes-agent-kb` Knowledge base.
+
+   ![Select Knowledge base](./images/step2-select-kb.png)
+
 2. Navigate to the **Knowledge Base Overview** page to monitor progress.
+
+   ![Select Knowledge base](./images/step2-kb-overview.png)
+
 3. Verify that all files have been indexed successfully. Any errors will be displayed in the logs.
 
 ## Next Steps...

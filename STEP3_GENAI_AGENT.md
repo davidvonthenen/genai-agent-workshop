@@ -13,16 +13,17 @@ For more details on creating a Knowledge Base, refer to the [GenAI Agent Quickst
 ## 3.1: Access the AI Agents Section
 
 1. Log in to your DigitalOcean account.
-2. Navigate to the GenAI Platform dashboard.
-3. Select **AI Agents** from the side menu.
+2. Navigate to the GenAI Platform dashboard by selecting **GenAI Platform** from the side menu.
+3. Select **Agents** tab.
 
 ## 3.2: Create a New AI Agent
 
-1. Click **Create AI Agent**.
+1. Click **Create Agent**.
 
    ![Create a Agent](./images/step3-create.png)
 
 2. Fill in the following fields:
+
    - **Agent Name**: `kubernetes-agent`
    - **Agent Instructions**: Use the instructions below.
 
@@ -68,31 +69,45 @@ For more details on creating a Knowledge Base, refer to the [GenAI Agent Quickst
    - Focus on actionable advice and clarity to empower users to solve problems independently or with minimal guidance.
    ```
 
-3. Choose a model for your agent.
+3. Select `kubernetes-agent-kb` from the dropdown menu.
+
+   ![Agent Settings](./images/step3-settings.png)
+
+4. Choose a model for your agent. Use the default `Llama 3.X 70B` model. **NOTE:** Check the `Terms and Conditions` box.
+5. Verify the setting below and click `Create Agent`.
 
    - **Agent Name**: Use the name `kubernetes-agent`.
    - **Knowledge Base**: Select `kubernetes-agent-kb` from the dropdown menu.
-   - **Model**: Select the recommended model for your use case (e.g., `Llama 3.1 70B` or another supported LLM).
-
-   ![Agent Settings](./images/step3-settings.png)
+   - **Model**: Select the recommended model for your use case (e.g., `Llama 3.X 70B` or another supported LLM).
 
 ## 3.3: Configure Agent Settings
 
 We want to go back and refine some of the settings on our Agent.
 
-1. **Endpoints**:
+1. **Overview**:
 
    - Select whether the agent will have a public or private endpoint based on your use case. Please select public.
    - Note down the endpoint URL for later integration.
+
+   ![Agent Settings](./images/step3-overview.png)
 
 2. **Playground Tab**:
 
    - Set the follow options:
 
-     - Max Tokens to 512 (maximum value).
-     - Temperature to 0.4
-     - Top P to 0.8
-     - K-Value to 7
+     - Max Tokens to 2048 (maximum value).
+     - Temperature to 0.3 to 0.5 (Experiment with this!)
+     - Top P to 0.7 to 0.9 (Experiment with this!)
+     - K-Value to 8 (Experiment with this!)
+   
+   ![Playground Settings](./images/step3-playground.png)
+
+3. **Settings**:
+
+   - TODO: Key
+
+   ![Agent Settings](./images/step3-agent-settings.png)
+
 
 3. Save these settings at each step of the way.
 

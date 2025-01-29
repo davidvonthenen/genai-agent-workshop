@@ -44,7 +44,7 @@ The dataset for the Kubernetes AI Agent is available in the GitHub repository. E
    unzip kubernetes-agent.zip -d kubernetes-agent-dataset
    ```
 
-### (Optional) Note on Dataset Creation
+### (Optional) More Details on the Dataset Creation
 
 This note shows how we prepared the dataset in step 1.2 above. There is no need to do this if you are using the `genai-agent-workshop/kubernetes-walkthrough` zip file. This is just for your information.
 
@@ -72,11 +72,31 @@ find ./website -type d -empty -delete
 
 ## 1.3 Upload the Dataset to the Spaces Object Store
 
-The click the upload button and upload the 3 folders contained within the dataset.
+We need to upload the dataset to the spaces bucket. There are two methods for doing this...
+
+### (Recommended) Easy Method
+
+![Drag-and-Drop](./images/step1-drag-and-drop.png)
+
+Navigate to your `kubernetes-agent-dataset` folder, then drag and drop the following folders in your spaces bucket (this will create folders and upload the files):
+
+1. website
+2. hardway
+
+Verify the folders have been uploaded and then move onto the next section.
+
+### (Not Recommended) The Hard Method
+
+Using the `Create` button, create 2 folders in your buckets:
+
+1. website
+2. hardway
+
+For each of the folders your create, click the upload button and upload the contents of the two folders within the dataset.
 
 ![Bucket Settings](./images/step1-upload.png)
 
-Your dataset is now ready to be accessed by the Kubernetes AI Agent!
+Your dataset is now ready to be accessed by the Kubernetes AI Agent! Verify the folders have been uploaded and then move onto the next section.
 
 ## Next Steps...
 

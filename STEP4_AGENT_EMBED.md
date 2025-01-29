@@ -9,11 +9,14 @@ Follow these steps to embed the chatbot into your webpage:
 1. **Locate the Embed Code:**
 
    - After creating and deploying your AI Agent, navigate to the **GenAI Dashboard** and select your Agent `kubernetes-agent`.
-   - Look for the **Endpoint** tab, where you will find a pre-generated embed code.
+   - Look for the **Overview** tab and navigate to the bottom, you will find a pre-generated code to embed on an HTML page.
+
+   ![Agent Overview](./images/step4-overview.png)
 
 2. **Insert the Embed Code into Your HTML:**
 
    - Copy the provided script and paste it into your webpage's HTML, typically before the closing `<body>` tag.
+   - If you want to use example HTML code, you can find an example in this repo at `kubernetes-walkthrough/index.html`. Replace your javascript with the one contained in the HTML.
    - Here’s a sample script for reference:
 
    ```html
@@ -29,6 +32,8 @@ Follow these steps to embed the chatbot into your webpage:
      data-logo="/static/chatbot/icons/default-agent.svg">
    </script>
    ```
+
+   - Open a new tab and drag and drop the `index.html` or whatever HTML file you created into the blank tab in Chrome or other browser.
 
 3. **(Optional) Customize the Embed Code**
 
