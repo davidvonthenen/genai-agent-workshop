@@ -100,4 +100,4 @@ Your dataset is now ready to be accessed by the Kubernetes AI Agent! Verify the 
 
 ## Next Steps...
 
-→ [Next Up: Creating Your Dataset on DigitalOcean Spaces](./STEP2_KNOWLEDGE_BASE.md) 
+→ [Next Up: Creating Your Knowledge base on DigitalOcean Spaces](./STEP2_KNOWLEDGE_BASE.md) 
