@@ -13,7 +13,8 @@ To begin, you'll need to create a DigitalOcean Spaces object store where the dat
 
 3. Click **Create Bucket** and configure the following:
    - Select a datacenter region closest to your target audience.
-   - Choose a unique name for your Space (e.g., `kubernetes-agent-dataset`).
+   - Choose a unique name for your Space (e.g., `<your name>-kubernetes-agent-dataset`).
+     - **NOTE:** Spaces buckets have unique names since they can be exposed the public internet if desired. Include your name to make the bucket name unique.
    - Leave the default settings for permissions unless you require public access.
 
    ![Bucket Settings](./images/step1-settings.png)
@@ -78,7 +79,7 @@ We need to upload the dataset to the spaces bucket. There are two methods for do
 
 ![Drag-and-Drop](./images/step1-drag-and-drop.png)
 
-Navigate to your `kubernetes-agent-dataset` folder, then drag and drop the following folders in your spaces bucket (this will create folders and upload the files):
+Navigate to your `<your name>-kubernetes-agent-dataset` folder, then drag and drop the following folders in your spaces bucket (this will create folders and upload the files):
 
 1. website
 2. hardway
